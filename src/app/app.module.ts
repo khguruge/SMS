@@ -10,6 +10,7 @@ import { LoginComponent } from './shared/login/login.component';
 import { SignupComponent } from './shared/signup/signup.component';
 import { HeaderComponent } from './shared/header.component';
 import { TestComponent } from './test/test.component';
+import { Test1Component } from './test1/test1.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { TestComponent } from './test/test.component';
     LoginComponent,
     SignupComponent,
     HeaderComponent,
-    TestComponent
+    TestComponent,
+    Test1Component
   ],
   imports: [
     BrowserModule,
